@@ -250,7 +250,7 @@ int main()
     university.appointScientist(&s4);
 
     // Promote a scientist
-    university.promoteScientist(2, ASSOCIATE_PROFESSOR);
+    university.promoteScientist(1, ASSOCIATE_PROFESSOR);
 
     // Reduce salaries of chief assistants
     university.reduceSalaries(CHIEF_ASSISTANT, 100);
