@@ -32,7 +32,7 @@ void updateInventory(Product** inventory, int size, const string& name, int quan
         if (inventory[index]->quantity >= quantity) {
             inventory[index]->quantity -= quantity;
             profit += inventory[index]->price * quantity;
-            cout << fixed << setprecision(2) << inventory[index]->price * quantity << endl;
+            cout << fixed << setprecision(2) << inventory[index]->price * quantity << endl; /// така казваме да принтира до втория знак след дес. запетая
         } else {
             cout << "Not enough " << name << endl;
         }
